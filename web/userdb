@@ -1,0 +1,11 @@
+create database userdb;
+use userdb;
+create table user(
+    username varchar(10) primary key,
+    password varchar(8) not null
+);
+insert into user(username,password)
+values('jack','123456');
+delete
+from user
+where username='';
